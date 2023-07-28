@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Store</title>
+  <!--NORMALIZE-->
+  <link rel="stylesheet" href="style/normalize.css" />
+  <!--PARRAFOS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+  <!--STYLE.CSS-->
+  <link rel="stylesheet" href="style/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/Gamestore.svg" alt="Logotipo" />
+    </a>
+  </header>
+
+  <nav class="navegacion">
+    <a class="navegacion__enlace" href="index.html">Tienda</a>
+    <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Pac-Man</h1>
+
+    <div class="juego">
+      <img class="juego__imagen" src="img/pacman.jpg" alt="Pac-Man comprar">
+      <div class="juego__contenido">
+        <p>psum dolor sit amet, consectetur adipiscing elit. Nam scelerisque efficitur magna, non iaculis dui auctor
+          nec. Cras accumsan nibh in quam posuere, sit amet scelerisque felis dapibus. Cras sit amet lacus ac erat
+          scelerisque pretium et vel mi. Fusce congue sapien eget magna fringilla sollicitudin. Sed tincidunt
+          ullamcorper purus. Mauris at dui risus</p>
+
+          <form class="formulario">
+            <select class="formulario__campo" >
+              <option disabled selected >-- Seleccione La Consola --</option>
+              <option >Gameboy</option>
+              <option >Atari</option>
+              <option >Nintendo 64</option>
+            </select>
+            <input type="number" class="formulario__campo" placeholder="Cantidad" min="1">
+            <input class="formulario__submit" type="submit" value="agregar al carrito">
+            
+          </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">GAME STORE Todos los Derechos Reservados 2022.</p>
+  </footer>
+</body>
+
+</html>
